@@ -209,7 +209,6 @@ nav {
     height: auto;
 }
 
-/* Планшет (768px) */
 @media (max-width: 768px) {
     .banner_bg {
         min-height: 500px;
@@ -235,7 +234,6 @@ nav {
     }
 }
 
-/* Телефон (480px) */
 @media (max-width: 480px) {
     .banner_bg {
         min-height: 400px;
@@ -264,7 +262,6 @@ nav {
     }
 }
 
-/* Маленькие телефоны (375px) */
 @media (max-width: 375px) {
     .banner_bg {
         min-height: 350px;
@@ -384,10 +381,8 @@ nav {
 
 .prof_item {
     transition: all 0.3s;
-    /* Для плавного изменения размеров */
 }
 
-/* Планшет (768px) */
 @media (max-width: 1300px) {
     .prof {
         padding: 0 20px;
@@ -430,7 +425,6 @@ nav {
     }
 }
 
-/* Телефон (480px) */
 @media (max-width: 480px) {
     .prof_head h2 {
         font-size: 24px;
@@ -456,7 +450,6 @@ nav {
     }
 }
 
-/* Маленькие телефоны (375px) */
 @media (max-width: 375px) {
     .prof {
         padding-bottom: 20px;
@@ -619,7 +612,6 @@ nav {
     }
 }
 
-/* Телефон (480px) */
 @media (max-width: 480px) {
     .home_catalog_items {
         flex-direction: column;
@@ -666,7 +658,6 @@ nav {
     }
 }
 
-/* Маленькие телефоны (375px) */
 @media (max-width: 375px) {
     .home_opis h3 {
         font-size: 22px;
@@ -783,7 +774,6 @@ nav {
     cursor: pointer;
 }
 
-/* Планшет (768px) */
 @media (max-width: 1300px) {
 
     .left,
@@ -818,7 +808,6 @@ nav {
     }
 }
 
-/* Телефон (480px) */
 @media (max-width: 480px) {
     .akchi_cards {
         gap: 15px;
@@ -844,7 +833,6 @@ nav {
     }
 }
 
-/* Маленькие телефоны (375px) */
 @media (max-width: 375px) {
     .akchi_opis h3 {
         font-size: 18px;
@@ -1032,12 +1020,11 @@ span {
 
 .ipoteka {
     display: flex;
-    width: 100%; /* Изменено с 80vh */
-    max-width: 1200px; /* Добавлено для ограничения ширины */
-    padding: 0 20px; /* Добавлено для отступов по бокам */
+    width: 100%; 
+    max-width: 1200px; 
+    padding: 0 20px; 
 }
 
-/* Планшет (768px и меньше) */
 @media (max-width: 768px) {
     .ipoteka_form {
         display: flex;
@@ -1075,7 +1062,6 @@ span {
     }
 }
 
-/* Мобильные (375px и меньше) */
 @media (max-width: 375px) {
     .ipoteka {
         padding: 0 15px;
@@ -1636,7 +1622,6 @@ span {
     }
 }
 
-/* Телефон (480px) */
 @media (max-width: 480px) {
     .chen_cards {
         flex-direction: column;
@@ -1670,7 +1655,6 @@ span {
     }
 }
 
-/* Маленькие телефоны (375px) */
 @media (max-width: 375px) {
     .chen_card h3 {
         font-size: 20px;
